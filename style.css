@@ -1,0 +1,243 @@
+*{
+    font-family: 'Gotham Pro';
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+        height: 100%;
+    background-image: url(res/back.png);
+}
+
+a{
+    text-decoration: none;
+        color: black;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url(res/GothamPro/gothampro_regular.ttf);
+}
+@font-face {
+    font-family: 'Gotham Pro medium';
+    src: url(res/GothamPro/gothampro_medium.ttf);
+}
+@font-face {
+    font-family: 'Gotham Pro light';
+    src: url(res/GothamPro/gothampro_light.ttf);
+}
+@font-face {
+    font-family: 'Gotham Pro bold';
+    src: url(res/GothamPro/gothampro_bold.ttf);
+}
+
+.core_header{}
+
+.header{
+    display: flex;
+}
+
+.header_left{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+}
+
+.header_line{
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.header_vk{
+    padding-left: 6px;
+}
+
+.header_smo{
+}
+
+.header_href{
+    font-size: 14px;
+}
+
+.header_right{
+    display: flex;    
+    padding: 40px;
+    margin-left: auto;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.header_login{
+    cursor: pointer;
+
+    display: inline-flex;
+    padding: 14px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+
+    border: 0;
+    border-radius: 30px;
+    background: #EDEDED;
+    
+    box-shadow: 0px 4px 13.6px 0px rgba(0, 0, 0, 0.25);
+        
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.88px;
+}
+
+.header_text{
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.88px;
+}
+
+.header_text_padding{
+    padding-right: 47px;
+}
+
+.header_center{
+    display: flex;
+}
+
+.header_animation{
+    display: flex;
+    align-items: center;
+}
+
+.slize1{
+    position: absolute;
+    width: 95.01px;
+    top: 0px;
+    left: 570px;
+    border: 44px;
+
+    
+}
+
+.slize2{
+    position: absolute;
+    width: Fixed (41px);
+    height: Fixed (159px);
+    top: 0px;
+    left: 592px;
+}
+
+.slize3{
+    position: absolute;
+    width: fixed (30px);
+    height: Fixed (172px);
+    top: 0px;
+    left: 740px;
+}
+
+.main{
+}
+
+.core_main{
+}
+
+.main_key{
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 215px;
+}
+
+.key_smo1{
+    height: 200px;
+        flex-shrink: 0;
+        color: #02FE6B;
+            text-align: center;
+            text-shadow: 0px 4px 8.9px rgba(0, 0, 0, 0.50);
+            font-family: 'Gotham Pro medium';
+            font-size: 200px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -10px;
+}
+
+.key_smo2{
+    color: #000;
+        text-align: center;
+        font-family: 'Gotham Pro bold';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 3.08px;
+}
+
+.key_line{
+    padding-top: 6px;
+}
+
+.main_regist{
+    display: flex;
+    padding-top: 22px;
+    width: 100%;
+}
+
+.regist_form{
+    margin: 0 auto;
+}
+
+.regist{
+    cursor: pointer;
+
+    display: inline-flex;
+        padding: 14px 35px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: 0;
+        border-radius: 30px;
+            background: #EDEDED;
+            box-shadow: 0px 4px 13.6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.regist_text{
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.88px;
+}
+
+.footer{
+    padding-left: 40px;
+    padding-bottom: 40px;
+padding-top: 230px;
+}
+
+.footer_text {
+    color: #000;
+    text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.72px;}
+
+.footer_text1 { 
+    width: 882px;
+        height: 38px;
+        flex-shrink: 0;
+}
+
+.footer_text2 {
+    padding-top: 30px;
+    width: 883px;
+        height: 116px;
+        flex-shrink: 0; 
+}
